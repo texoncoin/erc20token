@@ -175,10 +175,10 @@ contract TokenERC20 {
 }
 
 /******************************************/
-/*      Zeppelin ERC20 Token                */
+/*      Texon ERC20 Token                */
 /******************************************/
 
-contract ZeppelinToken is owned, TokenERC20 {
+contract TexonToken is owned, TokenERC20 {
 
     uint256 public sellPrice;
     uint256 public buyPrice;

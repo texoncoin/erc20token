@@ -118,9 +118,9 @@ contract ERC20Token is StandardToken {
         ) {
         balances[msg.sender] = 10000000;               // Give the creator all initial tokens (100000 for example)
         totalSupply = 10000000;                        // Update total supply (100000 for example)
-        name = "Zeppelin";                                   // Set the name for display purposes
+        name = "Texon";                                   // Set the name for display purposes
         decimals = 6;                            // Amount of decimals for display purposes
-        symbol = "ZPPL";                               // Set the symbol for display purposes
+        symbol = "XON";                               // Set the symbol for display purposes
     }
 
     /* Approves and then calls the receiving contract */
